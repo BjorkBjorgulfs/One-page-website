@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 0;
+}
+/* controlling the size of the logo, it's % so it will get larger and smaller when the window is dragged out or in  */
+.sinfo-logo {
+    margin: 0;
+    height: 13%;
+    width: 13%; 
+}
+
+header {
+    margin: 0;
+    background: gainsboro;
+    padding: 2em;
+    display: flex;
+    width: 100%;
+}
+
+/*Positioning the navigation list inside the header using padding-em*/
+header ul {
+    width: auto;
+    position: relative;
+    padding-top: 2em;
+    padding-left: 8em;
+}
+
+header ul li {
+    margin: 0;
+    float: left;
+    font-size: 16pt;
+}
+
+/*Padding here is around each anchor in the list - transition is how fast the hover effect fades away*/
+.menu a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    padding: 1em 2em;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+/*Hover effect with a darker grey color than the header*/
+.menu a:hover {
+    background-color: rgb(188, 187, 186);
+}
+
+.section {
+    position: relative;
+    text-align: center;
+}
+
+/*Size of the image using % again so the picture will get bigger og smaller when the window size is changed*/
+.section img {
+    width: 50%;
+    margin: 2em auto 2em;
+}
+
+/*Making the transparent effect around the text in the section area*/
+.section .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    padding: 2em 1em;
+    height: 17em;
+}
+
+.section h2 {
+    font-size: 24pt;
+}
+
+.section p {
+    font-size: 16pt;
+    margin: auto 3em auto 3em;
+}
+
+footer {
+    margin: 0;
+    background: none;
+    display: flex;
+    width: 100%;   
+    padding: 2em;
+}
+
+/*Making the vertical lines between list items using border-right*/
+footer ul li {
+    float: left;
+    font-size: 12pt;
+    border-right: 1px solid rgb(188, 187, 186);
+}
+
+/*Taking away the "border-right" in the last item of the list of the footer*/
+footer ul li:last-of-type {
+    border-right: none;
+}
+
+/*positioning the paragraphs in the list*/
+.bottom-list p {
+    display: inline;
+    padding: 2em 2em;
+}
+
+/*positioning the anchor in the list since the list contains both paragraph and anchor*/
+.bottom-list a {
+    padding: 2em 2em;
+    text-decoration: none;
+    color: black;
+}
+
+/*hover effect on the link, no background, only change of the text size and the color*/
+.bottom-list a:hover {
+    font-size: 13pt;
+    color: rgb(128, 53, 190);
+}

@@ -14,3 +14,4 @@ Changes I would like to make when I have more time to figure out how to do it:
 make sure that the list in the footer does not get stacked when the window is smaller
 same thing with the navigation list
 
+I started using github when I finished the coding so there are no commits

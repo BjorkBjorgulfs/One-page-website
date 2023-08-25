@@ -84,7 +84,7 @@ header ul li {
 .section h2 {
     font-size: 24pt;
 }
-
+/*Positioning the paragraph text using margin*/
 .section p {
     font-size: 16pt;
     margin: auto 3em auto 3em;
